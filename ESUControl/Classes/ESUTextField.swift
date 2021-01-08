@@ -29,13 +29,13 @@ open class ESUTextField: UITextField {
         self.addTarget(self, action: #selector(editingChanged), for: UIControl.Event.editingDidEnd)
     }
     
-    @objc private func editingChanged() {
+    @objc func editingChanged() {
         var text = self.text ?? ""
         onEditingChanged(&text)
         self.text = text
     }
     
-    @objc private func editingDidEnd() {
+    @objc func editingDidEnd() {
         onEditingDidEnd(self.text ?? "")
     }
     

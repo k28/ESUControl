@@ -14,6 +14,16 @@
 		E5091C7D25A7D37D009FB6C2 /* ESUDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5091C7A25A7D37D009FB6C2 /* ESUDatePicker.swift */; };
 		E5091C7E25A7D37D009FB6C2 /* ESUButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5091C7B25A7D37D009FB6C2 /* ESUButton.swift */; };
 		E5091C8525A7D3DA009FB6C2 /* ESUButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5091C8425A7D3DA009FB6C2 /* ESUButtonTests.swift */; };
+		E5FAA57E25A90BFC002DF2CD /* ESUSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FAA57D25A90BFC002DF2CD /* ESUSegmentedControl.swift */; };
+		E5FAA58225A90C10002DF2CD /* ESUSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FAA58125A90C10002DF2CD /* ESUSlider.swift */; };
+		E5FAA58625A90C29002DF2CD /* ESUSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FAA58525A90C29002DF2CD /* ESUSwitch.swift */; };
+		E5FAA58A25A90C4A002DF2CD /* ESUStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FAA58925A90C4A002DF2CD /* ESUStepper.swift */; };
+		E5FAA58E25A90E42002DF2CD /* ESUSegmentedControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FAA58D25A90E42002DF2CD /* ESUSegmentedControlTests.swift */; };
+		E5FAA59225A90FCC002DF2CD /* ESUSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FAA59125A90FCC002DF2CD /* ESUSliderTests.swift */; };
+		E5FAA59625A910E4002DF2CD /* ESUSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FAA59525A910E4002DF2CD /* ESUSwitchTests.swift */; };
+		E5FAA59A25A91205002DF2CD /* ESUStepperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FAA59925A91205002DF2CD /* ESUStepperTests.swift */; };
+		E5FAA59E25A91289002DF2CD /* ESUDatePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FAA59D25A91289002DF2CD /* ESUDatePickerTests.swift */; };
+		E5FAA5A225A91326002DF2CD /* ESUTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FAA5A125A91326002DF2CD /* ESUTextFieldTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +48,16 @@
 		E5091C7B25A7D37D009FB6C2 /* ESUButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESUButton.swift; sourceTree = "<group>"; };
 		E5091C8425A7D3DA009FB6C2 /* ESUButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUButtonTests.swift; sourceTree = "<group>"; };
 		E5091C8E25A85675009FB6C2 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		E5FAA57D25A90BFC002DF2CD /* ESUSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUSegmentedControl.swift; sourceTree = "<group>"; };
+		E5FAA58125A90C10002DF2CD /* ESUSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUSlider.swift; sourceTree = "<group>"; };
+		E5FAA58525A90C29002DF2CD /* ESUSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUSwitch.swift; sourceTree = "<group>"; };
+		E5FAA58925A90C4A002DF2CD /* ESUStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUStepper.swift; sourceTree = "<group>"; };
+		E5FAA58D25A90E42002DF2CD /* ESUSegmentedControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUSegmentedControlTests.swift; sourceTree = "<group>"; };
+		E5FAA59125A90FCC002DF2CD /* ESUSliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUSliderTests.swift; sourceTree = "<group>"; };
+		E5FAA59525A910E4002DF2CD /* ESUSwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUSwitchTests.swift; sourceTree = "<group>"; };
+		E5FAA59925A91205002DF2CD /* ESUStepperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUStepperTests.swift; sourceTree = "<group>"; };
+		E5FAA59D25A91289002DF2CD /* ESUDatePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUDatePickerTests.swift; sourceTree = "<group>"; };
+		E5FAA5A125A91326002DF2CD /* ESUTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUTextFieldTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,10 @@
 			children = (
 				E5091C7B25A7D37D009FB6C2 /* ESUButton.swift */,
 				E5091C7A25A7D37D009FB6C2 /* ESUDatePicker.swift */,
+				E5FAA57D25A90BFC002DF2CD /* ESUSegmentedControl.swift */,
+				E5FAA58125A90C10002DF2CD /* ESUSlider.swift */,
+				E5FAA58925A90C4A002DF2CD /* ESUStepper.swift */,
+				E5FAA58525A90C29002DF2CD /* ESUSwitch.swift */,
 				E5091C7925A7D37D009FB6C2 /* ESUTextField.swift */,
 			);
 			path = Classes;
@@ -112,6 +136,12 @@
 			isa = PBXGroup;
 			children = (
 				E5091C8425A7D3DA009FB6C2 /* ESUButtonTests.swift */,
+				E5FAA59D25A91289002DF2CD /* ESUDatePickerTests.swift */,
+				E5FAA58D25A90E42002DF2CD /* ESUSegmentedControlTests.swift */,
+				E5FAA59125A90FCC002DF2CD /* ESUSliderTests.swift */,
+				E5FAA59925A91205002DF2CD /* ESUStepperTests.swift */,
+				E5FAA59525A910E4002DF2CD /* ESUSwitchTests.swift */,
+				E5FAA5A125A91326002DF2CD /* ESUTextFieldTests.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -226,8 +256,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5091C7C25A7D37D009FB6C2 /* ESUTextField.swift in Sources */,
+				E5FAA58225A90C10002DF2CD /* ESUSlider.swift in Sources */,
 				E5091C7D25A7D37D009FB6C2 /* ESUDatePicker.swift in Sources */,
+				E5FAA58625A90C29002DF2CD /* ESUSwitch.swift in Sources */,
+				E5FAA57E25A90BFC002DF2CD /* ESUSegmentedControl.swift in Sources */,
 				E5091C7E25A7D37D009FB6C2 /* ESUButton.swift in Sources */,
+				E5FAA58A25A90C4A002DF2CD /* ESUStepper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,8 +269,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5FAA58E25A90E42002DF2CD /* ESUSegmentedControlTests.swift in Sources */,
+				E5FAA59E25A91289002DF2CD /* ESUDatePickerTests.swift in Sources */,
 				E5091C6B25A7D342009FB6C2 /* ESUControlTests.swift in Sources */,
+				E5FAA5A225A91326002DF2CD /* ESUTextFieldTests.swift in Sources */,
+				E5FAA59225A90FCC002DF2CD /* ESUSliderTests.swift in Sources */,
+				E5FAA59A25A91205002DF2CD /* ESUStepperTests.swift in Sources */,
 				E5091C8525A7D3DA009FB6C2 /* ESUButtonTests.swift in Sources */,
+				E5FAA59625A910E4002DF2CD /* ESUSwitchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
