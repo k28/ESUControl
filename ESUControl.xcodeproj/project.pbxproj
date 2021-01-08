@@ -37,6 +37,7 @@
 		E5091C7A25A7D37D009FB6C2 /* ESUDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESUDatePicker.swift; sourceTree = "<group>"; };
 		E5091C7B25A7D37D009FB6C2 /* ESUButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESUButton.swift; sourceTree = "<group>"; };
 		E5091C8425A7D3DA009FB6C2 /* ESUButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUButtonTests.swift; sourceTree = "<group>"; };
+		E5091C8E25A85675009FB6C2 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		E5091C5225A7D342009FB6C2 = {
 			isa = PBXGroup;
 			children = (
+				E5091C8E25A85675009FB6C2 /* Package.swift */,
 				E5091C5E25A7D342009FB6C2 /* ESUControl */,
 				E5091C6925A7D342009FB6C2 /* ESUControlTests */,
 				E5091C5D25A7D342009FB6C2 /* Products */,
