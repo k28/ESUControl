@@ -15,7 +15,7 @@ open class ESUButton: UIButton {
     open var onTouchDragOutside: (() -> Void) = { }
     open var onTouchDragEnter: (() -> Void) = { }
     open var onTouchDragExit: (() -> Void) = { }
-    open var onTouchUpIndide: (() -> Void) = { }
+    open var onTouchUpInside: (() -> Void) = { }
     open var onTouchUpOutside: (() -> Void) = { }
     open var onTouchCancel: (() -> Void) = { }
 
@@ -70,7 +70,7 @@ open class ESUButton: UIButton {
     }
     
     @objc func touchUpInside() {
-        self.onTouchUpIndide()
+        self.onTouchUpInside()
     }
     
     @objc func touchCancel() {
