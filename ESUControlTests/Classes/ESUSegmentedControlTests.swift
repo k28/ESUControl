@@ -22,7 +22,8 @@ class ESUSegmentedControlTests: XCTestCase {
         }
         
         control.selectedSegmentIndex = 2
-        control.valueChanged()
+        control.sendActions(for: .valueChanged)
+        //control.valueChanged()
         XCTAssertEqual(2, selected)
     }
 

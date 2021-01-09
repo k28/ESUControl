@@ -22,7 +22,8 @@ class ESUSliderTests: XCTestCase {
         }
         
         control.setValue(0.7, animated: false)
-        control.valueChanged()
+        control.sendActions(for: .valueChanged)
+        //control.valueChanged()
         XCTAssertEqual(0.7, value)
     }
 }

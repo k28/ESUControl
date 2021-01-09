@@ -20,7 +20,7 @@ class ESUButtonTests: XCTestCase {
         button.onTouchDown = {
             called = true
         }
-        button.touchDown()
+        button.sendActions(for: .touchDown)
         XCTAssertEqual(true, called)
     }
     
@@ -30,7 +30,7 @@ class ESUButtonTests: XCTestCase {
         button.onTouchDownRepeat = {
             called = true
         }
-        button.touchDownRepeat()
+        button.sendActions(for: .touchDownRepeat)
         XCTAssertEqual(true, called)
     }
     
@@ -40,7 +40,7 @@ class ESUButtonTests: XCTestCase {
         button.onTouchDragInside = {
             called = true
         }
-        button.touchDragInside()
+        button.sendActions(for: .touchDragInside)
         XCTAssertEqual(true, called)
     }
     
@@ -50,7 +50,7 @@ class ESUButtonTests: XCTestCase {
         button.onTouchDragOutside = {
             called = true
         }
-        button.touchDragOutside()
+        button.sendActions(for: .touchDragOutside)
         XCTAssertEqual(true, called)
     }
     
@@ -60,7 +60,7 @@ class ESUButtonTests: XCTestCase {
         button.onTouchDragExit = {
             called = true
         }
-        button.touchDragExit()
+        button.sendActions(for: .touchDragExit)
         XCTAssertEqual(true, called)
     }
     
@@ -70,7 +70,7 @@ class ESUButtonTests: XCTestCase {
         button.onTouchUpInside = {
             called = true
         }
-        button.touchUpInside()
+        button.sendActions(for: .touchUpInside)
         XCTAssertEqual(true, called)
     }
     
@@ -80,7 +80,7 @@ class ESUButtonTests: XCTestCase {
         button.onTouchUpOutside = {
             called = true
         }
-        button.touchUpOutside()
+        button.sendActions(for: .touchUpOutside)
         XCTAssertEqual(true, called)
     }
     
@@ -90,7 +90,7 @@ class ESUButtonTests: XCTestCase {
         button.onTouchCancel = {
             called = true
         }
-        button.touchCancel()
+        button.sendActions(for: .touchCancel)
         XCTAssertEqual(true, called)
     }
 

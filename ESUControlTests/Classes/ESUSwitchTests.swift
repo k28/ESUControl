@@ -21,11 +21,13 @@ class ESUSwitchTests: XCTestCase {
             enabled = val
         }
         control.isEnabled = true
-        control.valueChanged()
+        control.sendActions(for: .valueChanged)
+        //control.valueChanged()
         XCTAssertTrue(enabled)
         
         control.isEnabled = false
-        control.valueChanged()
+        control.sendActions(for: .valueChanged)
+        //control.valueChanged()
         XCTAssertFalse(enabled)
     }
     

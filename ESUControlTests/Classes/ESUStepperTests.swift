@@ -21,7 +21,8 @@ class ESUStepperTests: XCTestCase {
             value = val
         }
         control.value = 0.7
-        control.valueChanged()
+        control.sendActions(for: .valueChanged)
+        // control.valueChanged()
         XCTAssertEqual(0.7, value)
         
     }
