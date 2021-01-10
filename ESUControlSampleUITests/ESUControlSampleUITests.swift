@@ -43,7 +43,19 @@ class ESUControlSampleUITests: XCTestCase {
         textField.tap()
         textField.typeText("hello")
         XCTAssertEqual("HELLO", textField.value as! String)
+    }
+    
+    func testESUDatePicker() throws {
+        let app = XCUIApplication()
+        app.launch()
         
+        let datePicker = app.datePickers["ESUDatePickerIdentifier"]
+        XCTAssertTrue(datePicker.exists)
+        
+        datePicker.tap()
+        datePicker.pickerWheels.element(boundBy: 0).adjust(toPickerWheelValue: "June")
+        datePicker.pickerWheels.element(boundBy: 1).adjust(toPickerWheelValue: "1")
+        datePicker.pickerWheels.element(boundBy: 2).adjust(toPickerWheelValue: "2015")
     }
 
     func testLaunchPerformance() throws {

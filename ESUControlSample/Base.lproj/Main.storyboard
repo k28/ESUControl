@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="udn-af-p3q">
-                                <rect key="frame" x="20" y="44" width="374" height="64"/>
+                                <rect key="frame" x="20" y="44" width="374" height="280"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGI-HX-AiJ" customClass="ESUButton" customModule="ESUControl">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
@@ -28,6 +28,9 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="mUz-hy-byx" customClass="ESUDatePicker" customModule="ESUControl">
+                                        <rect key="frame" x="0.0" y="64" width="374" height="216"/>
+                                    </datePicker>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -41,6 +44,7 @@
                     </view>
                     <connections>
                         <outlet property="esuButton_" destination="fGI-HX-AiJ" id="kSt-Vh-xWi"/>
+                        <outlet property="esuDatePicker_" destination="mUz-hy-byx" id="hJD-6x-F1Q"/>
                         <outlet property="esuTextField_" destination="3oJ-Yf-uyD" id="6Fx-iz-cIE"/>
                     </connections>
                 </viewController>
