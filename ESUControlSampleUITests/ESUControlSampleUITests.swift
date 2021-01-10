@@ -6,6 +6,8 @@
 //
 
 import XCTest
+//import ESUControl
+//import ESUControlSample
 @testable import ESUControlSample
 
 class ESUControlSampleUITests: XCTestCase {
@@ -32,11 +34,16 @@ class ESUControlSampleUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
-    func testESUButton() throws {
+    func testESUTextField() throws {
         let app = XCUIApplication()
         app.launch()
 
-        let button = app.buttons[ViewController.ButtonIdentifier]
+        let textField = app.textFields["ESUTextFieldIdentifier"]
+        XCTAssertNotNil(textField)
+        textField.tap()
+        textField.typeText("hello")
+        XCTAssertEqual("HELLO", textField.value as! String)
+        
     }
 
     func testLaunchPerformance() throws {

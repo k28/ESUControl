@@ -31,6 +31,7 @@
 		E5FAA5B525AA5308002DF2CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5FAA5B425AA5308002DF2CD /* Assets.xcassets */; };
 		E5FAA5B825AA5308002DF2CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5FAA5B625AA5308002DF2CD /* LaunchScreen.storyboard */; };
 		E5FAA5CE25AA5308002DF2CD /* ESUControlSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FAA5CD25AA5308002DF2CD /* ESUControlSampleUITests.swift */; };
+		E5FAA5F325AA86F7002DF2CD /* ESUControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5091C5C25A7D342009FB6C2 /* ESUControl.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = E5FAA5A825AA5307002DF2CD;
 			remoteInfo = ESUControlSample;
+		};
+		E5FAA5F025AA86F0002DF2CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5091C5325A7D342009FB6C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5091C5B25A7D342009FB6C2;
+			remoteInfo = ESUControl;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -112,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5FAA5F325AA86F7002DF2CD /* ESUControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +143,7 @@
 				E5FAA5AA25AA5307002DF2CD /* ESUControlSample */,
 				E5FAA5CC25AA5308002DF2CD /* ESUControlSampleUITests */,
 				E5091C5D25A7D342009FB6C2 /* Products */,
+				E5FAA5F225AA86F7002DF2CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,6 +229,13 @@
 			path = ESUControlSampleUITests;
 			sourceTree = "<group>";
 		};
+		E5FAA5F225AA86F7002DF2CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -281,6 +298,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E5FAA5F125AA86F0002DF2CD /* PBXTargetDependency */,
 			);
 			name = ESUControlSample;
 			productName = ESUControlSample;
@@ -451,6 +469,11 @@
 			isa = PBXTargetDependency;
 			target = E5FAA5A825AA5307002DF2CD /* ESUControlSample */;
 			targetProxy = E5FAA5E625AA5DEB002DF2CD /* PBXContainerItemProxy */;
+		};
+		E5FAA5F125AA86F0002DF2CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5091C5B25A7D342009FB6C2 /* ESUControl */;
+			targetProxy = E5FAA5F025AA86F0002DF2CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

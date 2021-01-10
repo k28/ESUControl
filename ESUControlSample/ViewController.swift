@@ -11,8 +11,10 @@ import ESUControl
 class ViewController: UIViewController {
     
     @IBOutlet weak var esuButton_: ESUButton!
+    @IBOutlet weak var esuTextField_: ESUTextField!
     
     static let ButtonIdentifier = "ESUBUTTON"
+    static let TextFieldIdentifier = "ESUTextFieldIdentifier"
     
     var esuButtonPushed = false
 
@@ -25,14 +27,15 @@ class ViewController: UIViewController {
     
     private func setupIdentifier () {
         esuButton_.accessibilityIdentifier = ViewController.ButtonIdentifier
+        esuTextField_.accessibilityIdentifier = ViewController.TextFieldIdentifier
     }
 
     private func setup() {
         esuButton_.onTouchUpInside = { [weak self] in
             self?.esuButtonPushed = true
         }
-        esuButton_.onTouchDown = {
-            NSLog("onTouchDown")
+        esuTextField_.onEditingChanged = { val in
+            val = val.uppercased()
         }
     }
 

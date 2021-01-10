@@ -17,12 +17,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="udn-af-p3q">
-                                <rect key="frame" x="20" y="44" width="414" height="30"/>
+                                <rect key="frame" x="20" y="44" width="374" height="64"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGI-HX-AiJ" customClass="ESUButton" customModule="ESUControl">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
                                         <state key="normal" title="ESU Button"/>
                                     </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3oJ-Yf-uyD" customClass="ESUTextField" customModule="ESUControl">
+                                        <rect key="frame" x="0.0" y="30" width="374" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -31,11 +36,12 @@
                         <constraints>
                             <constraint firstItem="udn-af-p3q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UUs-VW-pOg"/>
                             <constraint firstItem="udn-af-p3q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kQD-3J-T5A"/>
-                            <constraint firstItem="udn-af-p3q" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="20" id="sKM-wb-ky8"/>
+                            <constraint firstItem="udn-af-p3q" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-20" id="sKM-wb-ky8"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="esuButton_" destination="fGI-HX-AiJ" id="kSt-Vh-xWi"/>
+                        <outlet property="esuTextField_" destination="3oJ-Yf-uyD" id="6Fx-iz-cIE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
