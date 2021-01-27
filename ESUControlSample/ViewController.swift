@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var esuButton_: ESUButton!
     @IBOutlet weak var esuTextField_: ESUTextField!
     @IBOutlet weak var esuDatePicker_: ESUDatePicker!
+    @IBOutlet weak var esuTextView_: ESUTextView!
     
     static let ButtonIdentifier = "ESUBUTTON"
     static let TextFieldIdentifier = "ESUTextFieldIdentifier"
@@ -45,6 +46,10 @@ class ViewController: UIViewController {
         esuDatePicker_.onValueChanged = { [weak self] val in
             NSLog("esuDatePicker_onValueChanged \(val)")
             self?.currentDate = val
+        }
+        
+        esuTextView_.onEditingChanged = { val in
+            val = val.uppercased()
         }
         
     }

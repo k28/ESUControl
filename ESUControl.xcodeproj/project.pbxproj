@@ -14,6 +14,8 @@
 		E5091C7D25A7D37D009FB6C2 /* ESUDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5091C7A25A7D37D009FB6C2 /* ESUDatePicker.swift */; };
 		E5091C7E25A7D37D009FB6C2 /* ESUButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5091C7B25A7D37D009FB6C2 /* ESUButton.swift */; };
 		E5091C8525A7D3DA009FB6C2 /* ESUButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5091C8425A7D3DA009FB6C2 /* ESUButtonTests.swift */; };
+		E572E98625C20E5B00881A1D /* ESUTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E572E98525C20E5B00881A1D /* ESUTextView.swift */; };
+		E572E98C25C20EAE00881A1D /* ESUTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E572E98B25C20EAE00881A1D /* ESUTextViewTests.swift */; };
 		E5FAA57E25A90BFC002DF2CD /* ESUSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FAA57D25A90BFC002DF2CD /* ESUSegmentedControl.swift */; };
 		E5FAA58225A90C10002DF2CD /* ESUSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FAA58125A90C10002DF2CD /* ESUSlider.swift */; };
 		E5FAA58625A90C29002DF2CD /* ESUSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FAA58525A90C29002DF2CD /* ESUSwitch.swift */; };
@@ -77,6 +79,8 @@
 		E5091C7B25A7D37D009FB6C2 /* ESUButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESUButton.swift; sourceTree = "<group>"; };
 		E5091C8425A7D3DA009FB6C2 /* ESUButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUButtonTests.swift; sourceTree = "<group>"; };
 		E5091C8E25A85675009FB6C2 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		E572E98525C20E5B00881A1D /* ESUTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUTextView.swift; sourceTree = "<group>"; };
+		E572E98B25C20EAE00881A1D /* ESUTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUTextViewTests.swift; sourceTree = "<group>"; };
 		E5FAA57D25A90BFC002DF2CD /* ESUSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUSegmentedControl.swift; sourceTree = "<group>"; };
 		E5FAA58125A90C10002DF2CD /* ESUSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUSlider.swift; sourceTree = "<group>"; };
 		E5FAA58525A90C29002DF2CD /* ESUSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESUSwitch.swift; sourceTree = "<group>"; };
@@ -188,6 +192,7 @@
 				E5FAA58925A90C4A002DF2CD /* ESUStepper.swift */,
 				E5FAA58525A90C29002DF2CD /* ESUSwitch.swift */,
 				E5091C7925A7D37D009FB6C2 /* ESUTextField.swift */,
+				E572E98525C20E5B00881A1D /* ESUTextView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 				E5FAA59925A91205002DF2CD /* ESUStepperTests.swift */,
 				E5FAA59525A910E4002DF2CD /* ESUSwitchTests.swift */,
 				E5FAA5A125A91326002DF2CD /* ESUTextFieldTests.swift */,
+				E572E98B25C20EAE00881A1D /* ESUTextViewTests.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -410,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5091C7C25A7D37D009FB6C2 /* ESUTextField.swift in Sources */,
+				E572E98625C20E5B00881A1D /* ESUTextView.swift in Sources */,
 				E5FAA58225A90C10002DF2CD /* ESUSlider.swift in Sources */,
 				E5091C7D25A7D37D009FB6C2 /* ESUDatePicker.swift in Sources */,
 				E5FAA58625A90C29002DF2CD /* ESUSwitch.swift in Sources */,
@@ -427,6 +434,7 @@
 				E5FAA59E25A91289002DF2CD /* ESUDatePickerTests.swift in Sources */,
 				E5091C6B25A7D342009FB6C2 /* ESUControlTests.swift in Sources */,
 				E5FAA5A225A91326002DF2CD /* ESUTextFieldTests.swift in Sources */,
+				E572E98C25C20EAE00881A1D /* ESUTextViewTests.swift in Sources */,
 				E5FAA59225A90FCC002DF2CD /* ESUSliderTests.swift in Sources */,
 				E5FAA59A25A91205002DF2CD /* ESUStepperTests.swift in Sources */,
 				E5091C8525A7D3DA009FB6C2 /* ESUButtonTests.swift in Sources */,
